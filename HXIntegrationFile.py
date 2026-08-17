@@ -436,7 +436,7 @@ with tab1:
             tci = st.number_input("Initial Cold Fluid Temp (avg T of return water) (°C)", value=25.0)
             mh = st.number_input("Mass Flow of Hot Fluid (kg/s)", min_value=0.0001, value=1.2, step=0.1, format="%.4f")
             mc = st.number_input("Mass Flow of Cold Fluid (kg/s)", min_value=0.0001, value=1.0, step=0.1, format="%.4f")
-            min_hot_outlet_temp = st.number_input("Min outlet temperature for hot fluid (°C)", value=60.0)
+            min_hot_outlet_temp = st.number_input("Min outlet temperature for hot fluid (°C)", value=30.0)
             max_cold_outlet_temp = st.number_input("Max outlet temperature for cold fluid (°C)", value=80.0)
 
         with col2:
